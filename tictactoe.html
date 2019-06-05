@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<title>TicTacTwo 0.01</title>
+		
+		<script type="text/javascript" src="./includes/jquery-3.2.1.min.js"></script>		
+		<script type="text/javascript" src="js/tictactwoML-02.js"></script>
+		
+	<link type="text/css" rel="stylesheet" href= "./css/tictactwo.css">
+		
+	</head>
+	
+	<body onload="init()">
+	<h1>Standard TicTacTo</h1>
+		<div id="beachball"><img src="images/wave.gif"></div>
+	   <p>Init:
+	  <input type="button" value="init" onclick="init();">
+	  <textarea id="timesthrough">1</textarea>
+	  <input type="button" value="Play Game" onclick="playGames();">
+	  <input type="button" value="Load Saves" onclick="loadGames();">
+	  <textarea id="filenametext">tictacdata-00000100.txt</textarea>
+	  <!-- load saved game span -->
+	  <span id="loadGameSpan"  style="display:none">
+	  	<textarea id="gameToLoad">0</textarea><span id="loadGameInstruction"></span>
+	  	<input type="button" value="Load a game" id="loadAGame" onclick="loadAGame()">
+	 	<input type="button" value="Next move" onclick="walkThroughGame()">
+	 	Move #<span id="whichmovespan"></span>
+	 	<input type="button" value="Check for winner" onclick="rerunMove()">
+	  </span>
+	
+	
+		<div id="borderbox">
+		<div id="boarddiv">
+		
+		</div> <!-- boarddiv -->	
+		</div> <!-- borderbox -->
+
+		<div style="clear:both"></div>
+		<div>
+	
+		
+		<div  id="bombstatus">
+			<div >&nbsp;</div>
+			<span id="xbomb" class="bomb" onclick="dropbomb{this}">XX</span>
+			<span id="obomb" class="bomb" onclick="dropbomb{this}">OO</span>
+			<input type="button" onclick="displayWinningRowManually()" value="Display Winner" id="displaywinningrowbtn">
+		</div>
+		<div style="clear:both">&nbsp;</div>
+		<div id="badMoveDiv">move status</div>
+		<div style="clear:both">&nbsp;</div>
+		
+		<div id="scoreboard">
+			<div id="gameslabel">Total Games: <span id="numberofgames"></span></div>
+			<div id="nowinnersabel">
+				No winner: <span id="nowinnergames"></span></div>
+			<div id="xScores">
+				X
+				<span id="scoreX"></span>
+			</div>
+			<div id="oScores">
+				O
+				<span id="scoreO"></span>
+			</div>
+		</div>
+			<div id="debugmsgs">Debugging messages</div>
+		
+		</div>
+	
+
+	</body>
+</html>

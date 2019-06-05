@@ -1,0 +1,125 @@
+body{
+	font-family: 'Helvetica Neue', Helvetica, Verdana, Arial, sans;
+}
+
+#badMoveDiv{
+	width: 300px;
+	background-color: #ffff00;
+}
+#debugmsgs{
+	width: 400px;
+	background-color: black;
+
+}
+.statdiv{
+	font-size: 15px;
+	line-height: 17px;
+	font-family: "Helvetica Neue", Verdana, Arial;
+	background-color: #DCFFFF;
+}
+
+#beachball{
+	position: absolute;
+	top: 10px;
+	display: none;
+}
+
+#bombstatus{
+	clear: both;
+	margin-top: 10px;
+}
+
+#borderbox{
+	width: 318px;
+}
+
+#numberofgames{
+	width: 218px;
+	height: 20px;
+	background-color: #bce6ff;
+}
+
+#oScores{
+	float: right;
+}
+
+#scoreboard{
+	font-family: 'Helvetica Neue';
+	font-weight: 650;
+	width: 220px;
+	height: 50px;
+	border: 1px solid gray;
+}
+
+#status{
+	font-family: courier new;
+	font-size: 10pt;
+	position: absolute;
+	top: 50px;
+	left: 350px;
+	overflow: scroll;
+	width: 400px;
+	height: 400px;
+	color: #ffffff;
+	background-color: blue;
+	cell-padding: 10px;
+}
+
+#timesthrough{
+	width: 60px;
+	height: 15px;
+	border-radius: 7px;
+}
+
+#xScores{
+	float: left;
+}
+
+#xScores ,
+#oScores{
+	width: 100px;
+	text-align: center;
+	border: 1px solid #fc36b0;
+	background-color: #fd97a9;
+}
+
+.bomb{
+	color: #ffffff;
+	border-radius: 9px;
+	background-color: red;
+	padding: 5px;
+}
+
+.bombused{
+	color: #ffffff;
+	background-color: #9c9c9c;
+}
+
+.boxwinner{
+	background-color: #fed124;
+	border-color: #fc5117;
+}
+
+.square{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+	-moz-border-radius: 15px;
+	     border-radius: 15px;
+	background-color: #aaddaa;
+	border-color: #ffddaa;
+	border-style: solid;
+	border-width: 3px;
+}
+
+.statusdiv{
+	position: relative;
+	width: 300px;
+	margin-left: 400px;
+}
+
+.xobox{
+	font-family: 'helvetica Neue';
+	font-weight: 600;
+}
