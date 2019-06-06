@@ -122,4 +122,8 @@ body{
 .xobox{
 	font-family: 'helvetica Neue';
 	font-weight: 600;
+	font-size: 2em;
+}
+.xdisplay{
+	color: red;
 }

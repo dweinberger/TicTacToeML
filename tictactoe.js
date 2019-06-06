@@ -229,32 +229,40 @@ function playAGame(){
 		
 			var squares=[0,1,2,3,4,5,6,7,8];
 			// randomize the squares
+			// then look through them until find an empty
+			// else declare the game over
 			squares = shuffle(squares)
-			var i = 0,sq;
+			let i = 0,sq, sqIndex = 0;
 			var boxwinner =-1;
 			let stillLooking = true;
 			while (stillLooking){
-				// Is check boxdata[i] available
-				sq = squares[i];
+				sq = squares[sqIndex];
 				if ( boxdata[sq].xostring === ""){
 					//  update string representation	
 					boxdata[sq].xostring =  player.toLowerCase();
 					$("#xo" + sq).text(boxdata[sq].xostring);
+					if (player == "X"){
+						$("#xo" + sq ).addClass("xdisplay");
+					}
+					else{
+						$("#xo" + sq ).removeClass("xdisplay");
+					}
 					stillLooking = false;
+					setStatus("Player " + player + "found empty box #" + sq)
 				}
 			
 				if (stillLooking){
-					i++;
+					sqIndex++;
 					// no boxes left?
-					if (i == 9){
+					if (sqIndex == 9){
 						stillLooking = false;
 					}
-				}
-				else {
-
-					// change player
-					if (player == "X") {player="O";}else{player="X";}
-				}
+				}// 
+// 				else {
+// 
+// 					// change player
+// 					
+// 				}
 	
 			}// end of move
 		
@@ -270,6 +278,8 @@ function playAGame(){
 	}
 	if (winner != -1){
 		gameNotDone = false;
+		// change player
+		if (player == "X") {player="O";}else{player="X";}
 		
 	}	
 		
@@ -325,6 +335,10 @@ function playAGame(){
 // ---- SAVE DATA
 
 function saveData(gameNumber, dataslice){
+
+// DEBUG
+return
+
 	var datas = JSON.stringify(dataslice);
 	$.ajax({
 	type: "POST",
@@ -642,11 +656,11 @@ function setStatus(s){
 	$("#status").text(tx);
 	//return; //DEBUG
     // append line, unless it's "CLEAR"
-	el = document.getElementById("status");
-	if (s == "CLEAR") {
-	    el.innerHTML="";
-	    return
-	}
+// 	el = document.getElementById("status");
+// 	if (s == "CLEAR") {
+// 	    el.innerHTML="";
+// 	    return
+// 	}
 	var statdiv = document.createElement("div");
 	$(statdiv).attr({"class" : "statusmsg"});
 	$(statdiv).html(s);
@@ -655,7 +669,7 @@ function setStatus(s){
 	
 	$( statdiv ).css( "backgroundColor", "#DCFFFF" ).css( "background", "#D6FFC1" );
 	$("#debugmsgs").append(statdiv);
-	el.innerHTML=s + "<br>" + el.innerHTML ;
+	//el.innerHTML=s + "<br>" + el.innerHTML ;
 }
 
 
