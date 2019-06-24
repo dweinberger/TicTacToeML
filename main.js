@@ -1,4 +1,4 @@
-// plays every possible TicTacTo game
+// plays random TicTacTo games
 
 // const http = require('http');
 // const hostname = '127.0.0.1';
@@ -136,7 +136,7 @@ function playGames(){
 	gTotalTies =0;
 	
 	var player = 0;
-	var numberofgamestoplay = $("#numberofgames").text();
+	var numberofgamestoplay = $("#numberofgames").val();
 	for (var x = 0; x < numberofgamestoplay; x++){
 		// initialize the boxes after each game
 		for (i=0; i < 9; i++){
@@ -255,10 +255,10 @@ function getBoardString(box){
 	
 	
 	// print the string as a board
-	var brd = "<div class='board'>" +  str[0] + str[1] + str[2] + "<br>";
-	str = str + str[3] + str[4] + str[5] + "<br>";
-	str = str  + str[6] + str[7] + str[8] + "</div><br>";
-	status(str);
+	var brd = ' <br><span style="color:white">' + str[0] + str[1] + str[2] + "<br>";
+	brd = brd + str[3] + str[4] + str[5] + "<br>";
+	brd = brd  + str[6] + str[7] + str[8] + "</span><br>";
+	status(brd);
 	
 	return str;
 
@@ -319,11 +319,14 @@ function shuffle(a){
 	return a;
 }
 
+
+
 // --------- STATUS
 function status(txt){
-	var curtext = $("#status").text();
+	$("#status").append(txt + "<br>");
+	//var curtext = $("#status").text();
 	//console.log(curtext;)
-	var curhtml = $("#status").html();
-	var newhtml = curhtml + "<br>"  + txt;
-	$("#status").html(newhtml);
+	// var curhtml = $("#status").html();
+// 	var newhtml = curhtml + "<br>"  + txt;
+// 	$("#status").html(newhtml);
 }
