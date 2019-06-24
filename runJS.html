@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Run Node TTT</title>
+	<script src="./includes/jquery-3.2.1.min.js"></script>
+	<script src="./main.js"></script>
+	
+	<style>
+	#status{
+		font-family: Courier, mono;
+		color: #48A011;
+		background-color: black;
+		font-size: 14px;
+		width: 90%;
+		/* height: 600 px; */
+		padding-left: 8px;
+	}
+	.board{
+		color:white;
+		margin: 5px;
+	}
+	</style
+
+</head>
+<body>
+<h2>Runs main.js (node) for debugging</h2>
+
+<textarea id="numberofgames" width=7>2</textarea>
+
+<input type="button" value="Run the JS" onclick="playGames()">
+<input type="button" value="clear" onclick="$('#status').html('');">
+
+<div id="status">test</div>
+
+<div id="boarddiv" style="font-family: Courier, font-size: 18px">
+</div>
+
+
+</body>
+</html>
