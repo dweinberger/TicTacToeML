@@ -32,10 +32,7 @@ const oh_x = [1,0,0];
 const playerO = [0,1];
 const playerX = [1,0];
 
-
-var gSyncedOneHots = new Array(); 
-var gOnehotGames = new Array();
-var gSyncedLabels = new Array();
+var gOnehotGames = new Array(); // all the games and their moves
 var gBoardDim = 3; // Size of each side. Normal: 3x3
 
 
@@ -92,8 +89,8 @@ function buildOnehot(){
 function loadData(){
 
 	// reset arrays in case we're re-loading
-	gSyncedLabels.length = 0; 
-	gSyncedOneHots.length = 0;
+
+	gOnehotGames.length = 0;
 	setParams();
 
 	// --  Read the json file
@@ -269,73 +266,48 @@ function humanReadableBoardStr(s){
 	return news;
 }
 
-function imgFound(newpath){
-	//console.log("found:" + newpath);
-}
-function imgNotFound(img, newpath){
-	console.log("-- img ERROR:" + newpath);
-}
 
 async function createTensors(){
-	// create an array of imported photos synced to gPhotos 
+	// create the arrays and tensors we need
 	
-	gImages.length = 0; // initiate the global just in case
-	$("#imageArea").html("");
-	setParams();
-	
-	var ctr = 0;
-	for (let i=0; i < gPhotos.length; i++){
-		//gLocalFileName = imgRoot + gPhotos[i]["localFileName"];
-		//console.log(localFileName);
+	// for each board:
+	// Create array of 9 onehots to describe  board state
+	//    - flatten it
+	//    - append the one hot for the player
+	// This will be a 29-element, 1D array
+	//
+	// Create a tensor that is the number of boards, and 29
 
+	var gamesTensor = [], game, moves, owner, flat, botharrays;
+	for (i=0; i < gOnehotGames.length; i++){
+		game = gOnehotGames[i];
+		moves = game[0];
+		owner = game[1];
+		// go through moves
+		for (var j=0; j < moves.length; j++){
+			var botharrays = [];
+			botharrays.push(moves[j]);
+			botharrays.push[owner];
+			flat = [].concat.apply([],botharrays[j]);
+			//flatowner = [].concat.apply([],owner);
+		
+			
+			
+		}
+		
 	
-		// See if the file exists
-		$.ajax({
-			type: "GET",
-			url: gLocalFileName,
-			success: (function(){	// -- create the image object
-				var img = new Image(); 
-				var imagename = gPhotos[i]["localFileName"];
-				var newpath = imgRoot + imagename;
-				img.src = newpath;
+	
+	}
 
-				// -- display the images and their label
-				//console.log(newpath);
-				var div = document.createElement("div");
-				$(div).attr({"class" : "imgdemo", "index" : i});
-				$(div).append(img);
-				var label = document.createElement("div");
-				$(label).attr( {"class" : "label", "title" : gSyncedLabels[ctr] });
-				$(label).text(gSyncedLabels[ctr] );
-				
-				$(div).on( "click", function(){ displayBigImage(this);} );
-				$(div).append(label);
-				$("#imageArea").append(div);
-				ctr++;
-				gImages.push(img);
-				})
-		});
 	
 		
 		if ( i == gPhotos.length - 1){
-			$("#imgloadstatus").text("Loaded " + gPhotos.length + " images.");
+			$("#imgloadstatus").text("Loaded " + test + " images.");
 		}
-	}
 	
 }
 
-function displayBigImage(div){
-	let i = $(div).attr("index");
-	console.log("displaying image " + i);
-	$("#displayWindow").fadeIn();
-	var filename = gPhotos[i]['localFileName'];
-	
-	var pathToFullImage = bigimageRoot + filename;
-	console.log("display image filename: " + pathToFullImage);
-	let king = gPhotos[i]["kingdomName"];
-	$("#displayWindow").html(king + " : " + filename + "<br><img src='" + pathToFullImage +  "'> ");
-	
-}
+
 
 //======================== TENSORFLOW.JS ==================
 const debugHere = false;
