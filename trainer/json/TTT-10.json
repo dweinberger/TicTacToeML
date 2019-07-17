@@ -1,0 +1,1018 @@
+[
+  {
+    "index": 0,
+    "winner": 0,
+    "firstMover": 1,
+    "numberOfMoves": 9,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "-------X-",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 8,
+        "nextMove": 7
+      },
+      {
+        "player": 1,
+        "box": 7,
+        "boardStr": "-------X-",
+        "nextBoardStr": "O------X-",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 7,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "O------X-",
+        "nextBoardStr": "O----X-X-",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 6,
+        "nextMove": 5
+      },
+      {
+        "player": 1,
+        "box": 5,
+        "boardStr": "O----X-X-",
+        "nextBoardStr": "O-O--X-X-",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 5,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "O-O--X-X-",
+        "nextBoardStr": "O-O--XXX-",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 4,
+        "nextMove": 6
+      },
+      {
+        "player": 1,
+        "box": 6,
+        "boardStr": "O-O--XXX-",
+        "nextBoardStr": "O-O-OXXX-",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 3,
+        "nextMove": 4
+      },
+      {
+        "player": 0,
+        "box": 4,
+        "boardStr": "O-O-OXXX-",
+        "nextBoardStr": "O-OXOXXX-",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 2,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "O-OXOXXX-",
+        "nextBoardStr": "OOOXOXXX-",
+        "moveNumber": 7,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 1,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "OOOXOXXX-",
+        "nextBoardStr": "",
+        "moveNumber": 8,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "winner": 0,
+    "firstMover": 0,
+    "numberOfMoves": 8,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "-----O---",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 7,
+        "nextMove": 5
+      },
+      {
+        "player": 0,
+        "box": 5,
+        "boardStr": "-----O---",
+        "nextBoardStr": "---X-O---",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 6,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "---X-O---",
+        "nextBoardStr": "-O-X-O---",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 5,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "-O-X-O---",
+        "nextBoardStr": "-O-X-OX--",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 4,
+        "nextMove": 6
+      },
+      {
+        "player": 1,
+        "box": 6,
+        "boardStr": "-O-X-OX--",
+        "nextBoardStr": "OO-X-OX--",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 3,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "OO-X-OX--",
+        "nextBoardStr": "OO-X-OXX-",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 2,
+        "nextMove": 7
+      },
+      {
+        "player": 1,
+        "box": 7,
+        "boardStr": "OO-X-OXX-",
+        "nextBoardStr": "OOOX-OXX-",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 1,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "OOOX-OXX-",
+        "nextBoardStr": "",
+        "moveNumber": 7,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "winner": 0,
+    "firstMover": 1,
+    "numberOfMoves": 9,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "---X-----",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 8,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "---X-----",
+        "nextBoardStr": "---X-O---",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 7,
+        "nextMove": 5
+      },
+      {
+        "player": 0,
+        "box": 5,
+        "boardStr": "---X-O---",
+        "nextBoardStr": "---X-O--X",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 6,
+        "nextMove": 8
+      },
+      {
+        "player": 1,
+        "box": 8,
+        "boardStr": "---X-O--X",
+        "nextBoardStr": "-O-X-O--X",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 5,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "-O-X-O--X",
+        "nextBoardStr": "-O-XXO--X",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 4,
+        "nextMove": 4
+      },
+      {
+        "player": 1,
+        "box": 4,
+        "boardStr": "-O-XXO--X",
+        "nextBoardStr": "OO-XXO--X",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 3,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "OO-XXO--X",
+        "nextBoardStr": "OO-XXOX-X",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 2,
+        "nextMove": 6
+      },
+      {
+        "player": 1,
+        "box": 6,
+        "boardStr": "OO-XXOX-X",
+        "nextBoardStr": "OOOXXOX-X",
+        "moveNumber": 7,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 1,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "OOOXXOX-X",
+        "nextBoardStr": "",
+        "moveNumber": 8,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "winner": 0,
+    "firstMover": 0,
+    "numberOfMoves": 8,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "---O-----",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 7,
+        "nextMove": 3
+      },
+      {
+        "player": 0,
+        "box": 3,
+        "boardStr": "---O-----",
+        "nextBoardStr": "---O----X",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 6,
+        "nextMove": 8
+      },
+      {
+        "player": 1,
+        "box": 8,
+        "boardStr": "---O----X",
+        "nextBoardStr": "--OO----X",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 5,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "--OO----X",
+        "nextBoardStr": "--OO---XX",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 4,
+        "nextMove": 7
+      },
+      {
+        "player": 1,
+        "box": 7,
+        "boardStr": "--OO---XX",
+        "nextBoardStr": "O-OO---XX",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 3,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "O-OO---XX",
+        "nextBoardStr": "O-OOX--XX",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 2,
+        "nextMove": 4
+      },
+      {
+        "player": 1,
+        "box": 4,
+        "boardStr": "O-OOX--XX",
+        "nextBoardStr": "OOOOX--XX",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 1,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "OOOOX--XX",
+        "nextBoardStr": "",
+        "moveNumber": 7,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "winner": 0,
+    "firstMover": 1,
+    "numberOfMoves": 7,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "---X-----",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 6,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "---X-----",
+        "nextBoardStr": "O--X-----",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 5,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "O--X-----",
+        "nextBoardStr": "O--X----X",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 4,
+        "nextMove": 8
+      },
+      {
+        "player": 1,
+        "box": 8,
+        "boardStr": "O--X----X",
+        "nextBoardStr": "OO-X----X",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 3,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "OO-X----X",
+        "nextBoardStr": "OO-X--X-X",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 2,
+        "nextMove": 6
+      },
+      {
+        "player": 1,
+        "box": 6,
+        "boardStr": "OO-X--X-X",
+        "nextBoardStr": "OOOX--X-X",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 1,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "OOOX--X-X",
+        "nextBoardStr": "",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "winner": 0,
+    "firstMover": 0,
+    "numberOfMoves": 8,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "-O-------",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 7,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "-O-------",
+        "nextBoardStr": "-O-X-----",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 6,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "-O-X-----",
+        "nextBoardStr": "-O-XO----",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 5,
+        "nextMove": 4
+      },
+      {
+        "player": 0,
+        "box": 4,
+        "boardStr": "-O-XO----",
+        "nextBoardStr": "-O-XO-X--",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 4,
+        "nextMove": 6
+      },
+      {
+        "player": 1,
+        "box": 6,
+        "boardStr": "-O-XO-X--",
+        "nextBoardStr": "-OOXO-X--",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 3,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "-OOXO-X--",
+        "nextBoardStr": "-OOXO-XX-",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 2,
+        "nextMove": 7
+      },
+      {
+        "player": 1,
+        "box": 7,
+        "boardStr": "-OOXO-XX-",
+        "nextBoardStr": "OOOXO-XX-",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 1,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "OOOXO-XX-",
+        "nextBoardStr": "",
+        "moveNumber": 7,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "winner": 0,
+    "firstMover": 0,
+    "numberOfMoves": 10,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "O--------",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 9,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "O--------",
+        "nextBoardStr": "O--X-----",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 8,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "O--X-----",
+        "nextBoardStr": "OO-X-----",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 7,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "OO-X-----",
+        "nextBoardStr": "OO-X----X",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 6,
+        "nextMove": 8
+      },
+      {
+        "player": 1,
+        "box": 8,
+        "boardStr": "OO-X----X",
+        "nextBoardStr": "OO-X-O--X",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 5,
+        "nextMove": 5
+      },
+      {
+        "player": 0,
+        "box": 5,
+        "boardStr": "OO-X-O--X",
+        "nextBoardStr": "OO-X-O-XX",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 4,
+        "nextMove": 7
+      },
+      {
+        "player": 1,
+        "box": 7,
+        "boardStr": "OO-X-O-XX",
+        "nextBoardStr": "OO-X-OOXX",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 3,
+        "nextMove": 6
+      },
+      {
+        "player": 0,
+        "box": 6,
+        "boardStr": "OO-X-OOXX",
+        "nextBoardStr": "OO-XXOOXX",
+        "moveNumber": 7,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 2,
+        "nextMove": 4
+      },
+      {
+        "player": 1,
+        "box": 4,
+        "boardStr": "OO-XXOOXX",
+        "nextBoardStr": "OOOXXOOXX",
+        "moveNumber": 8,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 1,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "OOOXXOOXX",
+        "nextBoardStr": "",
+        "moveNumber": 9,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "winner": 0,
+    "firstMover": 1,
+    "numberOfMoves": 9,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "--------X",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 8,
+        "nextMove": 8
+      },
+      {
+        "player": 1,
+        "box": 8,
+        "boardStr": "--------X",
+        "nextBoardStr": "--O-----X",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 7,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "--O-----X",
+        "nextBoardStr": "--O--X--X",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 6,
+        "nextMove": 5
+      },
+      {
+        "player": 1,
+        "box": 5,
+        "boardStr": "--O--X--X",
+        "nextBoardStr": "-OO--X--X",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 5,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "-OO--X--X",
+        "nextBoardStr": "-OOX-X--X",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 4,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "-OOX-X--X",
+        "nextBoardStr": "-OOX-X-OX",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 3,
+        "nextMove": 7
+      },
+      {
+        "player": 0,
+        "box": 7,
+        "boardStr": "-OOX-X-OX",
+        "nextBoardStr": "-OOXXX-OX",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 2,
+        "nextMove": 4
+      },
+      {
+        "player": 1,
+        "box": 4,
+        "boardStr": "-OOXXX-OX",
+        "nextBoardStr": "OOOXXX-OX",
+        "moveNumber": 7,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 1,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "OOOXXX-OX",
+        "nextBoardStr": "",
+        "moveNumber": 8,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "winner": 0,
+    "firstMover": 1,
+    "numberOfMoves": 9,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "------X--",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 8,
+        "nextMove": 6
+      },
+      {
+        "player": 1,
+        "box": 6,
+        "boardStr": "------X--",
+        "nextBoardStr": "-----OX--",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 7,
+        "nextMove": 5
+      },
+      {
+        "player": 0,
+        "box": 5,
+        "boardStr": "-----OX--",
+        "nextBoardStr": "-----OX-X",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 6,
+        "nextMove": 8
+      },
+      {
+        "player": 1,
+        "box": 8,
+        "boardStr": "-----OX-X",
+        "nextBoardStr": "-O---OX-X",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 5,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "-O---OX-X",
+        "nextBoardStr": "-O---OXXX",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 4,
+        "nextMove": 7
+      },
+      {
+        "player": 1,
+        "box": 7,
+        "boardStr": "-O---OXXX",
+        "nextBoardStr": "-OO--OXXX",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 3,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "-OO--OXXX",
+        "nextBoardStr": "-OO-XOXXX",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 2,
+        "nextMove": 4
+      },
+      {
+        "player": 1,
+        "box": 4,
+        "boardStr": "-OO-XOXXX",
+        "nextBoardStr": "OOO-XOXXX",
+        "moveNumber": 7,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 1,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "OOO-XOXXX",
+        "nextBoardStr": "",
+        "moveNumber": 8,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "winner": 0,
+    "firstMover": 1,
+    "numberOfMoves": 9,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---------",
+        "nextBoardStr": "-------X-",
+        "moveNumber": 0,
+        "winner": 0,
+        "movesUntilEnd": 8,
+        "nextMove": 7
+      },
+      {
+        "player": 1,
+        "box": 7,
+        "boardStr": "-------X-",
+        "nextBoardStr": "-----O-X-",
+        "moveNumber": 1,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 7,
+        "nextMove": 5
+      },
+      {
+        "player": 0,
+        "box": 5,
+        "boardStr": "-----O-X-",
+        "nextBoardStr": "----XO-X-",
+        "moveNumber": 2,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 6,
+        "nextMove": 4
+      },
+      {
+        "player": 1,
+        "box": 4,
+        "boardStr": "----XO-X-",
+        "nextBoardStr": "--O-XO-X-",
+        "moveNumber": 3,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 5,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "--O-XO-X-",
+        "nextBoardStr": "--O-XO-XX",
+        "moveNumber": 4,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 4,
+        "nextMove": 8
+      },
+      {
+        "player": 1,
+        "box": 8,
+        "boardStr": "--O-XO-XX",
+        "nextBoardStr": "O-O-XO-XX",
+        "moveNumber": 5,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 3,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "O-O-XO-XX",
+        "nextBoardStr": "O-OXXO-XX",
+        "moveNumber": 6,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 2,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "O-OXXO-XX",
+        "nextBoardStr": "OOOXXO-XX",
+        "moveNumber": 7,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 1,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "OOOXXO-XX",
+        "nextBoardStr": "",
+        "moveNumber": 8,
+        "winner": 0,
+        "firstMover": 1,
+        "movesUntilEnd": 0,
+        "nextMove": -1
+      }
+    ]
+  }
+]

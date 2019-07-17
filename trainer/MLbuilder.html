@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MLbuilder-TTT</title>
+	<meta name="generator" content="BBEdit 12.1" />
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.13.3/dist/tf.min.js"> </script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@0.4.2/dist/tfjs-vis.umd.min.js"></script>  
+	  <script src="./includes/jquery-3.2.1.min.js"></script>
+	   <script src="js/MLbuilder.js"></script>
+;
+	<link rel="stylesheet" type="text/css" href="css/builder.css">
+	
+	<style>
+	#generalstatus{
+		background-color: yellow;
+		width: 50%;
+		border: 3px solid red;
+		}
+		</style>
+	
+	<script>
+	$( document ).ready(function() {
+		init();
+	});
+	</script>
+</head>
+
+<body>
+
+<div id="params" style="font-size: 12px;">
+	Epochs (20): <textarea id="epochs" style="width: 40px; height:15px">20</textarea> &nbsp; &nbsp;
+	Learning rate (.1): <textarea id="rate"  style="width: 40px; height:15px">0.1</textarea> &nbsp; &nbsp;
+	Batch size (64): <textarea id="batch"  style="width: 45px; height:15px">64</textarea>  &nbsp; &nbsp;
+	Kernel (3): <textarea id="kernel"  style="width: 40px; height:15px">3</textarea>  &nbsp; &nbsp;
+	Valid. split (0.15): <textarea id="split"  style="width: 45px; height:15px">0.15</textarea>  &nbsp; &nbsp;
+	Units (64) <textarea id="units" style="width: 45px; height:15px">64</textarea>  &nbsp; &nbsp;
+	Max Photos to load (-1 = all) <textarea id="maximagesta" style="width:45px; height: 15px">-1</textarea> &nbsp; &nbsp;
+	<input type="button" class="smallactionbtn" value="Set params" onclick="setParams()">
+	JSON file: <span id="jsonFileName"></span>
+	</div>
+
+<div id="displayWindow">
+	<div id="displayBox">
+	</div>
+	<input type="button" value="close" onclick = '($("#displayWindow").fadeOut())')>
+</div>
+
+
+<div id="onehotdiv">
+	<input type="button" value="Build OneHot" id="onehotbtn" onclick="buildOnehot()" class="opsbtn">
+
+	<div id="onehotstatus">
+	</div>
+</div>
+<div id="loaddatadiv">
+	<input type="button" value="Load data" id="loadbtn" onclick="loadData()" class="opsbtn">
+
+	<div id="loaddatastatus">
+	</div>
+</div>
+<div id="loaddimages">
+	<input type="button" value="Create Tensors" id="createTensorsBtn" onclick="createTensors()" class="opsbtn">
+
+	<div id="imgloadstatus">
+	</div>
+</div>
+
+<div id="buildmodel">
+	<input type="button" value="Train model" id="buildmodelbtn" onclick="buildModel()" class="opsbtn">
+	<div id="trainstatus">
+	</div>
+	
+</div>
+
+<div id="saveloadmodel">
+	<input type="button" value="Save model" id="savemodelbtn" onclick="saveModel() ">
+	<input type="button" value="Load model (maybe)" id="loadmodelbtn" onclick="loadModel()">
+
+<!-- 
+	<input name="json-upload" type="file" />
+	<input name="weights-upload" type="file" />
+ -->
+</div>
+
+<!-- <div id="generalstatus">general stat</div> -->
+
+X = Blue | O = Red
+<div id="gamesArea"></div>
+
+</body>
+</html>

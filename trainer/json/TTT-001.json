@@ -1,0 +1,485 @@
+[
+  {
+    "index": 0,
+    "winner": 0,
+    "firstMover": 0,
+    "numberOfMoves": 9,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "--0------",
+        "nextBoardStr": "-10------",
+        "moveNumber": 0,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 9,
+        "moveNumnber": 0,
+        "boardstr": "---------"
+      },
+      {
+        "player": 1,
+        "box": 1,
+        "boardStr": "-10------",
+        "nextBoardStr": "-10-0----",
+        "moveNumber": 1,
+        "firstMover": 0,
+        "movesUntilEnd": 8,
+        "nextMove": 4
+      },
+      {
+        "player": 0,
+        "box": 4,
+        "boardStr": "-10-0----",
+        "nextBoardStr": "-1010----",
+        "moveNumber": 2,
+        "firstMover": 0,
+        "movesUntilEnd": 7,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "-1010----",
+        "nextBoardStr": "01010----",
+        "moveNumber": 3,
+        "firstMover": 0,
+        "movesUntilEnd": 6,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "01010----",
+        "nextBoardStr": "01010-1--",
+        "moveNumber": 4,
+        "firstMover": 0,
+        "movesUntilEnd": 5,
+        "nextMove": 6
+      },
+      {
+        "player": 1,
+        "box": 6,
+        "boardStr": "01010-1--",
+        "nextBoardStr": "0101001--",
+        "moveNumber": 5,
+        "firstMover": 0,
+        "movesUntilEnd": 4,
+        "nextMove": 5
+      },
+      {
+        "player": 0,
+        "box": 5,
+        "boardStr": "0101001--",
+        "nextBoardStr": "01010011-",
+        "moveNumber": 6,
+        "firstMover": 0,
+        "movesUntilEnd": 3,
+        "nextMove": 7
+      },
+      {
+        "player": 1,
+        "box": 7,
+        "boardStr": "01010011-",
+        "nextBoardStr": "010100110",
+        "moveNumber": 7,
+        "firstMover": 0,
+        "movesUntilEnd": 2,
+        "nextMove": 8
+      },
+      {
+        "player": 0,
+        "box": 8,
+        "boardStr": "010100110",
+        "nextBoardStr": "",
+        "moveNumber": 8,
+        "firstMover": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "winner": 1,
+    "firstMover": 1,
+    "numberOfMoves": 9,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "1--------",
+        "nextBoardStr": "1-0------",
+        "moveNumber": 0,
+        "winner": 1,
+        "firstMover": 1,
+        "movesUntilEnd": 9,
+        "moveNumnber": 0,
+        "boardstr": "---------"
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "1-0------",
+        "nextBoardStr": "1-0----1-",
+        "moveNumber": 1,
+        "firstMover": 1,
+        "movesUntilEnd": 8,
+        "nextMove": 7
+      },
+      {
+        "player": 1,
+        "box": 7,
+        "boardStr": "1-0----1-",
+        "nextBoardStr": "1-00---1-",
+        "moveNumber": 2,
+        "firstMover": 1,
+        "movesUntilEnd": 7,
+        "nextMove": 3
+      },
+      {
+        "player": 0,
+        "box": 3,
+        "boardStr": "1-00---1-",
+        "nextBoardStr": "1-00-1-1-",
+        "moveNumber": 3,
+        "firstMover": 1,
+        "movesUntilEnd": 6,
+        "nextMove": 5
+      },
+      {
+        "player": 1,
+        "box": 5,
+        "boardStr": "1-00-1-1-",
+        "nextBoardStr": "1000-1-1-",
+        "moveNumber": 4,
+        "firstMover": 1,
+        "movesUntilEnd": 5,
+        "nextMove": 1
+      },
+      {
+        "player": 0,
+        "box": 1,
+        "boardStr": "1000-1-1-",
+        "nextBoardStr": "1000-1-11",
+        "moveNumber": 5,
+        "firstMover": 1,
+        "movesUntilEnd": 4,
+        "nextMove": 8
+      },
+      {
+        "player": 1,
+        "box": 8,
+        "boardStr": "1000-1-11",
+        "nextBoardStr": "100001-11",
+        "moveNumber": 6,
+        "firstMover": 1,
+        "movesUntilEnd": 3,
+        "nextMove": 4
+      },
+      {
+        "player": 0,
+        "box": 4,
+        "boardStr": "100001-11",
+        "nextBoardStr": "100001111",
+        "moveNumber": 7,
+        "firstMover": 1,
+        "movesUntilEnd": 2,
+        "nextMove": 6
+      },
+      {
+        "player": 1,
+        "box": 6,
+        "boardStr": "100001111",
+        "nextBoardStr": "",
+        "moveNumber": 8,
+        "firstMover": 1,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "winner": -1,
+    "firstMover": 0,
+    "numberOfMoves": 10,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "---0-----",
+        "nextBoardStr": "---0--1--",
+        "moveNumber": 0,
+        "winner": -1,
+        "firstMover": 0,
+        "movesUntilEnd": 10,
+        "moveNumnber": 0,
+        "boardstr": "---------"
+      },
+      {
+        "player": 1,
+        "box": 6,
+        "boardStr": "---0--1--",
+        "nextBoardStr": "---0--10-",
+        "moveNumber": 1,
+        "firstMover": 0,
+        "movesUntilEnd": 9,
+        "nextMove": 7
+      },
+      {
+        "player": 0,
+        "box": 7,
+        "boardStr": "---0--10-",
+        "nextBoardStr": "---0-110-",
+        "moveNumber": 2,
+        "firstMover": 0,
+        "movesUntilEnd": 8,
+        "nextMove": 5
+      },
+      {
+        "player": 1,
+        "box": 5,
+        "boardStr": "---0-110-",
+        "nextBoardStr": "--00-110-",
+        "moveNumber": 3,
+        "firstMover": 0,
+        "movesUntilEnd": 7,
+        "nextMove": 2
+      },
+      {
+        "player": 0,
+        "box": 2,
+        "boardStr": "--00-110-",
+        "nextBoardStr": "-100-110-",
+        "moveNumber": 4,
+        "firstMover": 0,
+        "movesUntilEnd": 6,
+        "nextMove": 1
+      },
+      {
+        "player": 1,
+        "box": 1,
+        "boardStr": "-100-110-",
+        "nextBoardStr": "0100-110-",
+        "moveNumber": 5,
+        "firstMover": 0,
+        "movesUntilEnd": 5,
+        "nextMove": 0
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "0100-110-",
+        "nextBoardStr": "01001110-",
+        "moveNumber": 6,
+        "firstMover": 0,
+        "movesUntilEnd": 4,
+        "nextMove": 4
+      },
+      {
+        "player": 1,
+        "box": 4,
+        "boardStr": "01001110-",
+        "nextBoardStr": "010011100",
+        "moveNumber": 7,
+        "firstMover": 0,
+        "movesUntilEnd": 3,
+        "nextMove": 8
+      },
+      {
+        "player": 0,
+        "box": 8,
+        "boardStr": "010011100",
+        "moveNumber": 8,
+        "firstMover": 0,
+        "movesUntilEnd": 2,
+        "nextMove": -1
+      },
+      {
+        "player": 1,
+        "box": -1,
+        "nextBoardStr": "",
+        "moveNumber": 9,
+        "firstMover": 0,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "winner": 1,
+    "firstMover": 1,
+    "numberOfMoves": 7,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "-----1---",
+        "nextBoardStr": "0----1---",
+        "moveNumber": 0,
+        "winner": 1,
+        "firstMover": 1,
+        "movesUntilEnd": 7,
+        "moveNumnber": 0,
+        "boardstr": "---------"
+      },
+      {
+        "player": 0,
+        "box": 0,
+        "boardStr": "0----1---",
+        "nextBoardStr": "01---1---",
+        "moveNumber": 1,
+        "firstMover": 1,
+        "movesUntilEnd": 6,
+        "nextMove": 1
+      },
+      {
+        "player": 1,
+        "box": 1,
+        "boardStr": "01---1---",
+        "nextBoardStr": "01---1-0-",
+        "moveNumber": 2,
+        "firstMover": 1,
+        "movesUntilEnd": 5,
+        "nextMove": 7
+      },
+      {
+        "player": 0,
+        "box": 7,
+        "boardStr": "01---1-0-",
+        "nextBoardStr": "011--1-0-",
+        "moveNumber": 3,
+        "firstMover": 1,
+        "movesUntilEnd": 4,
+        "nextMove": 2
+      },
+      {
+        "player": 1,
+        "box": 2,
+        "boardStr": "011--1-0-",
+        "nextBoardStr": "011-01-0-",
+        "moveNumber": 4,
+        "firstMover": 1,
+        "movesUntilEnd": 3,
+        "nextMove": 4
+      },
+      {
+        "player": 0,
+        "box": 4,
+        "boardStr": "011-01-0-",
+        "nextBoardStr": "011-01-01",
+        "moveNumber": 5,
+        "firstMover": 1,
+        "movesUntilEnd": 2,
+        "nextMove": 8
+      },
+      {
+        "player": 1,
+        "box": 8,
+        "boardStr": "011-01-01",
+        "nextBoardStr": "",
+        "moveNumber": 6,
+        "firstMover": 1,
+        "nextMove": -1
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "winner": 0,
+    "firstMover": 0,
+    "numberOfMoves": 9,
+    "moves": [
+      {
+        "player": -1,
+        "box": -1,
+        "boardStr": "0--------",
+        "nextBoardStr": "01-------",
+        "moveNumber": 0,
+        "winner": 0,
+        "firstMover": 0,
+        "movesUntilEnd": 9,
+        "moveNumnber": 0,
+        "boardstr": "---------"
+      },
+      {
+        "player": 1,
+        "box": 1,
+        "boardStr": "01-------",
+        "nextBoardStr": "01---0---",
+        "moveNumber": 1,
+        "firstMover": 0,
+        "movesUntilEnd": 8,
+        "nextMove": 5
+      },
+      {
+        "player": 0,
+        "box": 5,
+        "boardStr": "01---0---",
+        "nextBoardStr": "011--0---",
+        "moveNumber": 2,
+        "firstMover": 0,
+        "movesUntilEnd": 7,
+        "nextMove": 2
+      },
+      {
+        "player": 1,
+        "box": 2,
+        "boardStr": "011--0---",
+        "nextBoardStr": "011--00--",
+        "moveNumber": 3,
+        "firstMover": 0,
+        "movesUntilEnd": 6,
+        "nextMove": 6
+      },
+      {
+        "player": 0,
+        "box": 6,
+        "boardStr": "011--00--",
+        "nextBoardStr": "011-100--",
+        "moveNumber": 4,
+        "firstMover": 0,
+        "movesUntilEnd": 5,
+        "nextMove": 4
+      },
+      {
+        "player": 1,
+        "box": 4,
+        "boardStr": "011-100--",
+        "nextBoardStr": "011-100-0",
+        "moveNumber": 5,
+        "firstMover": 0,
+        "movesUntilEnd": 4,
+        "nextMove": 8
+      },
+      {
+        "player": 0,
+        "box": 8,
+        "boardStr": "011-100-0",
+        "nextBoardStr": "0111100-0",
+        "moveNumber": 6,
+        "firstMover": 0,
+        "movesUntilEnd": 3,
+        "nextMove": 3
+      },
+      {
+        "player": 1,
+        "box": 3,
+        "boardStr": "0111100-0",
+        "nextBoardStr": "011110000",
+        "moveNumber": 7,
+        "firstMover": 0,
+        "movesUntilEnd": 2,
+        "nextMove": 7
+      },
+      {
+        "player": 0,
+        "box": 7,
+        "boardStr": "011110000",
+        "nextBoardStr": "",
+        "moveNumber": 8,
+        "firstMover": 0,
+        "nextMove": -1
+      }
+    ]
+  }
+]
